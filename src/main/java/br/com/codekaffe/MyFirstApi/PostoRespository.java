@@ -12,4 +12,6 @@ public interface PostoRespository extends MongoRepository<Posto, String> {
     List<Posto> getAllPostos();
 
     Posto getPostoById(String id);
+
+
 }
