@@ -19,8 +19,7 @@ public class Posto {
     private String latitude;
     private String longitude;
 
-    public Posto() {
-    }
+    public Posto(){}
 
     public Posto(String nomeDoPosto, String endereco, String latitude, String longitude) {
         this.nomeDoPosto = nomeDoPosto;
